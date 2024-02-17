@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- css -->
+    <link rel="stylesheet" href="/assets/css/mainStyle.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+
+    <!-- scss -->
+    <link rel="stylesheet" href="/assets/css/outstyle.css">
+
+    <!-- bibliotecas -->
+
+    <script src="https://cdn.jsdelivr.net/npm/animejs"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Pet amigo</title>
+</head>
+<body>
+    <header style="background-color:rgb(255, 255, 255)">
+
+        <div class="mobile-button ">
+            <i class="bi bi-list" ></i>
+        </div>
+        <nav class="navbar container z-2">
+            <a href="" class="navbar-brand ">Pet Amigo</a>
+
+            <ul class="navbar-nav d-flex flex-row gap-3 ">
+                <li class="nav-item">
+                    <a href="" class="nav-link">inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#servicos" class="nav-link">serviços</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#sobre" class="nav-link"> sobre nós</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#equipe" class="nav-link">nossa equipe</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#comentarios" class="nav-link"> depoimentos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contato" class="nav-link"> contato</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#funcionamento" class="nav-link"> funcionamento</a>
+                </li>
+
+            </ul>
+        </nav>
+        <div class="banner_section d-flex  h-100 "  >
+            <div id="information_area" class="d-flex justify-content-center  align-items-center flex-column h-100 w-100 ">
+                <h2 class=" fs-2">O Lar Perfeito Para</h2>
+                <h1 class="">Seu Melhor Amigo</h1>
+            </div>
+            <div id="image_banner" >
+                <img src="/images/banner-pet-blob.png" alt="happy puppy"  class=" position-absolute" >
+            </div>
+        </div>
+     
+    </header>
+    <main class="d-flex position-relative flex-wrap ">
+        <div class="wave" >
+            <img src="/images/wave 1 (1).png" alt="" >
+        </div>
+      
+        <div class="numbers-section d-flex flex-wrap justify-content-between position-absolute bottom-0 gap-1 z-3 w-100">
+           
+            <div id="sectionNum">
+                <strong class="gradient">
+                    + 
+                    <span id="pet"> 500</span>
+                </strong>
+                <p id="informative">
+                   Pets atendidos ao mês
+                </p>
+                
+            </div>
+            <div id="sectionNum">
+                <strong class="gradient">
+                    + <span id="cir"> 10</span>
+                </strong>
+                <p id="informative">
+                    Cirurgias
+                </p>
+                
+            </div>
+            <div id="sectionNum">
+                <strong class="gradient">
+                     <span id="loja"> 10</span>
+                </strong>
+                <p id="informative">
+                    LOjas  em todo brasil
+                </p>
+                
+            </div>
+            <div id="sectionNum">
+                <strong class="gradient">
+                   Nº<span id="numero"> 10</span>
+                </strong>
+                <p id="informative">
+                    em atendimento
+                </p>
+                
+            </div>
+        </div>
+        
+        <div class="main-image-section">
+            <div id="boxImg">
+                <img id="main-image" class=" position-absolute" data-aos="zoom-in"  src="/images/close-up-veterinarian-taking-care-cat.png" alt="">
+
+                <div id="background-shape">
+                    <img src="/images/white-circle-simple-clean-abstract-background-3d-render_167862-7432.png" alt="">
+                </div>
+            </div>
+          
+        </div>
+        <div class="main_about_service container" data-aos="fade-down">
+            <p class="gradient">Nosso diferencial</p>
+            <div id="intro_text">
+                <h3> a melhor equipe da região, apaixonada por animais e dedicada a proporcionar uma experiência excepcional para você e seu pet.
+                    Do básico ao extraordinário</h3>
+            </div>
+        </div>
+
+    </main>
+    <section id="servicos">
+        <div class="about_services_area ">
+            <h1 id="title-section" data-aos="fade-down">  Nossos <span id="destak">Serviços</span>
+            <div id="title-line"></div>
+            </h1>
+            <div class="main_services_area container d-flex flex-wrap">
+                <div class="service_content" data-aos="zoom-in-up">
+                    <div id="image-header">
+
+                        <img src="/images/services/doberman_7699635.png" alt="">
+                    </div>
+                    <h5 id="title-service">Grooming</h5>
+                    <p id="service-description"> 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Similique neque facilis repellendus odio porro quos, 
+                        esse sed eos aliquid, dolore non dicta vitae corrupti.
+                    </p>
+                    <button id="more" class="btn btn-5">
+                        saiba mais
+                    </button>
+                </div>
+                <hr id="service-line">
+                <div class="service_content" data-aos="zoom-in-up">
+                    <div id="image-header">
+
+                        <img src="/images/services/hair-brush_7699750.png" alt="">
+                    </div>
+                    <h5 id="title-service">Banho e tosa</h5>
+                    <p id="service-description"> 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Similique neque facilis repellendus odio porro quos, 
+                        esse sed eos aliquid, dolore non dicta vitae corrupti.
+                    </p>
+                    <button id="more"class="btn btn-5">
+                        saiba mais
+                    </button>
+                </div>
+                <hr id="service-line">
+                <div class="service_content" data-aos="zoom-in-up">
+                    <div id="image-header">
+
+                        <img src="/images/services/pet-hotel_7699818.png" alt="">
+                    </div>
+                    <h5 id="title-service">Hospedagem e creche</h5>
+                    <p id="service-description"> 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Similique neque facilis repellendus odio porro quos, 
+                        esse sed eos aliquid, dolore non dicta vitae corrupti.
+                    </p>
+                    <button id="more" class="btn btn-5">
+                        saiba mais
+                    </button>
+                </div>
+              
+                <div class="service_content" data-aos="zoom-in-up">
+                    <div id="image-header">
+
+                        <img src="/images/services/bowl_7699673.png" alt="">
+                    </div>
+                    <h5 id="title-service">nutrição</h5>
+                    <p id="service-description"> 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Similique neque facilis repellendus odio porro quos, 
+                        esse sed eos aliquid, dolore non dicta vitae corrupti.
+                    </p>
+                    <button id="more" class="btn btn-5">
+                        saiba mais
+                    </button>
+                </div>
+                <hr id="service-line">
+                <div class="service_content" data-aos="zoom-in-up">
+                    <div id="image-header">
+
+                        <img src="/images/services/first-aid-kit_7699623.png" alt="">
+                    </div>
+                    <h5 id="title-service">Consulta veterinária</h5>
+                    <p id="service-description"> 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Similique neque facilis repellendus odio porro quos, 
+                        esse sed eos aliquid, dolore non dicta vitae corrupti.
+                    </p>
+                    <button id="more" class="btn btn-5">
+                        saiba mais
+                    </button>
+                </div>
+                <hr id="service-line">
+                <div class="service_content" data-aos="zoom-in-up">
+                    <div id="image-header">
+
+                        <img src="/images/services/dog-training_7699650.png" alt="">
+                    </div>
+                    <h5 id="title-service">Adestramento</h5>
+                    <p id="service-description"> 
+                        Aulas de obediência básica e treinamento
+                        comportamental para cães.
+                    </p>
+                    <button id="more" class="btn btn-5">
+                        saiba mais
+                    </button>
+                </div>
+    
+            </div>
+
+        </div>
+    </section>
+    <section id="sobre">
+        <h1 id="title-section" data-aos="fade-down">  sobre <span id="destak">nós</span>
+        
+            <div id="title-line"></div>
+        </h1>
+        <div class="section-content d-flex container justify-content-between">
+            <div class="main-image-section about-image d-flex justify-content-center align-items-center">
+                <img src="/images/estabelecimento.png" alt="">
+            </div>
+            <div class="about_is_area"  data-aos="zoom-in">
+              
+                <div id="text-section-about" class=" d-flex flex-column align-items-center justify-content-center h-100 ps-5" style="background-color: ;">
+                    <h3 class="">O inicio de uma historia</h3>
+                    <hr > 
+                    <p id="text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Doloremque in accusantium necessitatibus quae illum a 
+                        eius nam distinctio, quibusdam odit incidunt ullam 
+                        repudiandae voluptate, iure qui. Similique earum eligendi quibusdam
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Doloremque in accusantium necessitatibus quae illum a 
+                        eius nam distinctio, quibusdam odit incidunt ullam 
+                        repudiandae voluptate, iure qui. Similique earum eligendi quibusdam.
+                    </p>
+                    <a href="" class="link-button">
+                        <button class="btn btn-5">ver mais</button>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+      
+
+    </section>
+    <section id="equipe">
+        <h1 id="title-section" data-aos="fade-down">conheça a nossa <span id="destak">equipe</span>
+
+            <div id="title-line"></div>
+        </h1>
+        
+        <div class="group_area d-flex container gap-1 flex-wrap">
+            <div id="main-member"  class="member position-relative"  data-aos="zoom-in">
+                <img src="/images/veterinarian-check-ing-puppy-s-health (1).jpg" alt="">
+                <div id="tag-member"  class=""> 
+                      
+
+                    <p id="funcao" class="fs-5" >Função</p>
+                    <p id="nome" >nome</p>
+               
+                <div class="member-desc">
+                    <div class="social_media d-flex justify-content-between fs-3 gap-3 px-5">
+                        <i class="bi bi-instagram"> <a href="http://" target="_blank" rel="noopener noreferrer"></a></i>
+                        <i class="bi bi-facebook"> <a href="http://" target="_blank" rel="noopener noreferrer"></a></i>
+                        <i class="bi bi-youtube"><a href="http://" target="_blank" rel="noopener noreferrer"></a></i>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="sub-member-area w-100 gap-1 d-flex flex-column flex-wrap">
+                <div id="second-member"  class=" member position-relative"  data-aos="zoom-in">
+                    <img src="/images/veterinarian-check-ing-puppy-s-health (1).jpg" alt="">
+                    <div id="tag-member"  class=""> 
+                      
+
+                            <p id="funcao" class="fs-5" >Função</p>
+                            <p id="nome" >nome</p>
+                       
+                        <div class="member-desc">
+                            <div class="social_media d-flex justify-content-between fs-3 gap-3 px-5">
+                                <i class="bi bi-instagram"> <a href="http://" target="_blank" rel="noopener noreferrer"></a></i>
+                                <i class="bi bi-facebook"> <a href="http://" target="_blank" rel="noopener noreferrer"></a></i>
+                                <i class="bi bi-youtube"><a href="http://" target="_blank" rel="noopener noreferrer"></a></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="tertiary-member"  class=" member position-relative"  data-aos="zoom-in">
+                    <img src="/images/veterinarian-check-ing-puppy-s-health (1).jpg" alt="">
+                    <div id="tag-member"  class=""> 
+                      
+
+                        <p id="funcao" class="fs-5" >Função</p>
+                        <p id="nome" >nome</p>
+                   
+                    <div class="member-desc">
+                        <div class="social_media d-flex justify-content-between fs-3 gap-3 px-5">
+                            <i class="bi bi-instagram"> <a href="http://" target="_blank" rel="noopener noreferrer"></a></i>
+                            <i class="bi bi-facebook"> <a href="http://" target="_blank" rel="noopener noreferrer"></a></i>
+                            <i class="bi bi-youtube"><a href="http://" target="_blank" rel="noopener noreferrer"></a></i>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+           
+        </div>
+    </section>
+    <section  id="comentarios" class="testimony" style="background-image: url(/images/background.png);">
+        <h1 id="title-section" data-aos="fade-down">depoimentos
+            <div id="title-line"></div>
+        </h1>
+        <div class="testimony-section container">
+
+            <div class="testimonys flex-wrap ">
+                <div id="testmony-area"  data-aos="zoom-in">
+                    <i class="bi bi-quote"></i>
+                    <p id="testimony">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Iste similique explicabo ducimus sint fuga laudantium assumenda! 
+                        Neque inventore modi assumenda facere necessitatibus 
+                        sed voluptatem incidunt beatae nihil, cum iure itaque!
+                    </p>
+                </div>
+                <div id="testmony-area" class="active"  data-aos="zoom-in">
+                    <i class="bi bi-quote"></i>
+                    <p id="testimony">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Iste similique explicabo ducimus sint fuga laudantium assumenda! 
+                        Neque inventore modi assumenda facere necessitatibus 
+                        sed voluptatem incidunt beatae nihil, cum iure itaque!
+                    </p>
+                </div>
+                <div id="testmony-area"   data-aos="zoom-in">
+                    <i class="bi bi-quote"></i>
+                    <p id="testimony">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Iste similique explicabo ducimus sint fuga laudantium assumenda! 
+                        Neque inventore modi assumenda facere necessitatibus 
+                        sed voluptatem incidunt beatae nihil, cum iure itaque!
+                    </p>
+                </div>
+            </div>
+           <div class="dots-testimony d-flex justify-content-center align-items-center gap-1 my-3">
+                <div id="dot"></div>
+                <div id="dot" class="dotActive"></div>
+                <div id="dot"></div>
+           </div>
+        </div>
+    </section>
+    <section id="contato" class="position-relative" style="overflow-x: 
+    
+     ;">
+        <div class="wave">
+            <img src="/images/wave 2 (1).png" alt="">
+        </div>
+        <h1 id="title-section" data-aos="fade-down" class="z-2 position-relative">contatos
+            <div id="title-line"></div>
+        </h1>
+        <div class="contacts_section d-flex container justify-content-between">
+            <div class="main-image-section">
+                <img src="/images/image-contact.png" alt="" style="height: 100%;width: fit-content;">
+            </div>
+            <div class="contact-section d-flex  justify-content-center align-items-center w-100 px-5"  data-aos="zoom-in">
+                <form action="https://formsubmit.co/edad193552aa797e96a12a6bec7eef 3b" method="POST" class="d-flex  flex-column w-100"  id="form" data-form>
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" class="required" oninput="nameValidate()">
+                    <span class="span-required">Nome deve ter no minimo 4 caracteres</span>
+            
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" class="required" oninput="emailValidate()">
+                    <span class="span-required">Digite um email valido</span>
+            
+                    <label for="subject">Assunto:</label>
+                    <input type="text" id="subject" name="subject" class="required" oninput="textValidate()">
+                    <span class="span-required">Digite o Assunto que voce Deseja</span>
+            
+                    <label for="message">Mensagem:</label>
+                    <textarea id="message" name="message" class="required" oninput="messegeValidate()"></textarea>
+            
+                    <button  class="button-form mt-3 btn btn-5"  type="submit" data-button >Enviar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section id="funcionamento">
+        <div class="sub_contact_section text-white position-relative" style="background-image: url(/images/temp-dog\ \(1\).png); background-size: cover;backdrop-filter: blur(2px); ">
+            <div id="contact-filter" class="position-absolute w-100 h-100 z-2"></div>
+            <div class="contact-content  text-center py-5 gap-3 d-flex flex-column position-relative z-3 "  data-aos="zoom-in">
+                <h1 data-aos="fade-down">agendar consulta</h1>
+                <h4 data-aos="fade-down">agende consulta do seu pet</h4>
+                <a href="">
+                    <button class="btn btn-5">agendar</button>
+                </a>
+            </div>
+           
+        </div>
+    </section>
+    <section class=" text-center">
+        <h1 class="pt-5" data-aos="fade-down">nos faça uma visita</h1>
+        <h4 class="text-uppercase fs-5 pb-5 " style="font-weight: lighter;" >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            <div id="title-line"></div>
+        </h4>
+        
+        <div id="map_section" class="w-100"  data-aos="zoom-in">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467692.3957652203!2d-46.92496912037579!3d-23.681434552294135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce448183a461d1%3A0x9ba94b08ff335bae!2zU8OjbyBQYXVsbywgU1A!5e0!3m2!1spt-BR!2sbr!4v1706466050526!5m2!1spt-BR!2sbr" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    <footer class=" d-flex flex-wrap justify-content-between align-items-center px-5  text-uppercase position-relative">
+        <div class="logo-footer  ">
+            <img src="/images/v987-11a 1.png" alt="">
+        </div>
+        <div class="brand-footer navbar-brand fs-3" data-aos="fade-down">
+            Pet Amigo
+        </div>
+
+        <div id="contact " class="footer-section" data-aos="fade-down">
+            <h5>nossos telefones</h5>
+            <hr>
+            <p>00 0000-0000</p>
+           
+        </div>
+        <div id="location " class="footer-section" data-aos="fade-down">
+            <h5>Nosso site</h5>
+            <hr>
+           
+            <ul class="footer_menu">
+                <li><a href="http://" target="_blank" rel="noopener noreferrer">Serviços</a></li>
+                <li><a href="http://" target="_blank" rel="noopener noreferrer"> Sobre Nós</a></li>
+                <li><a href="http://" target="_blank" rel="noopener noreferrer">Nossa Equipe</a></li>
+                <li><a href="http://" target="_blank" rel="noopener noreferrer">Depoimentos</a></li>
+                <li><a href="http://" target="_blank" rel="noopener noreferrer"> Contatos</a></li>
+                <li><a href="http://" target="_blank" rel="noopener noreferrer">Funcionamento</a></li>
+                <li><a href="http://" target="_blank" rel="noopener noreferrer">Blog</a></li>
+
+            </ul>
+        </div>
+        <div id="social " class="footer-section" data-aos="fade-down">
+            <h5>onde estamos</h5>
+            <hr>
+            <div class="social_media d-flex justify-content-between fs-3">
+                <i class="bi bi-instagram"> <a href="http://" target="_blank" rel="noopener noreferrer"></a></i>
+                <i class="bi bi-facebook"> <a href="http://" target="_blank" rel="noopener noreferrer"></a></i>
+                <i class="bi bi-youtube"><a href="http://" target="_blank" rel="noopener noreferrer"></a></i>
+            </div>
+        </div>
+        <div id="coments " class="footer-section" data-aos="fade-down">
+            <h5>Deixe seu FeedBack</h5>
+            <hr>
+            <div class="comment-objects d-flex">
+                <textarea name="" id="coments-text" ></textarea>
+                <button id="coments-btn" ><i class="bi bi-send"></i></button>
+            </div>
+           
+        </div>
+        
+    </footer>
+    <div class="copy-area text-center py-5">
+        CO | Desenvolvido por wengles monteiro
+    </div>
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <!-- root js -->
+    <script src="/assets/javascript/script.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>
