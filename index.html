@@ -21,8 +21,13 @@
     <title>Pet amigo</title>
 </head>
 <body>
-    <header style="background-color:rgb(255, 255, 255)">
+    <header class="" style="">
+    <div class="background-pattern" style="background-color: #e5e5f7;
+    opacity: 0.5;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e5e5f7 40px ), repeating-linear-gradient( #ffffff55, #ffffff ); height:100%;width:100%;position:absolute;z-index: -1;">
 
+    </div>
+        
         <div class="mobile-button ">
             <i class="bi bi-list" ></i>
         </div>
@@ -55,10 +60,54 @@
             </ul>
         </nav>
         <div class="banner_section d-flex  h-100 "  >
-            <div id="information_area" class="d-flex justify-content-center  align-items-center flex-column h-100 w-100 ">
+            
+            <div id="information_area" class="banner-carousel d-flex justify-content-center  align-items-center flex-column h-100 w-100 position-relative ">
+                <div id="information_area" class="banner-carousel d-flex justify-content-center  align-items-center flex-column h-100 w-100 position-relative ">
+                    <div class="forms-background"></div>
+                    <div id="second-form" class="forms-background"></div>
+    
+    
+                   <div id="bannerCarouselAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button id="button-indicator" type="button" data-bs-target="#bannerCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button id="button-indicator" type="button" data-bs-target="#bannerCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button id="button-indicator" type="button" data-bs-target="#bannerCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item  item-banner active">
+                            <h2 class=" fs-2" style="color:#535355">O Lar Perfeito Para</h2>
+                            <h1 class="gradient">Seu Melhor Amigo</h1>
+                          </div>
+                          <div class="carousel-item  item-banner">
+                            <h2 class=" fs-2">Do grooming à saúde</h2>
+                            <h1 class="gradient">somos seu destino</h1>
+                          </div>
+                          <div class="carousel-item  item-banner">
+                            <h2 class=" fs-2">Bem-estar animal em primeiro lugar!</h2>
+                            <h1 class="gradient">Visite-nos hoje!</h1>
+                          </div>
+                        </div>
+                        <button id="button-carousel" class="carousel-control-prev" type="button" data-bs-target="#bannerCarousel" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#bannerCarousel" data-bs-slide="next">
+                          <span  class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                   
+                    </div> 
+                   
+    
+                
+    
+    
+                </div>
+            </div>
+            <!-- <div id="information_area" class="d-flex justify-content-center  align-items-center flex-column h-100 w-100 ">
                 <h2 class=" fs-2">O Lar Perfeito Para</h2>
                 <h1 class="">Seu Melhor Amigo</h1>
-            </div>
+            </div> -->
             <div id="image_banner" >
                 <img src="/images/banner-pet-blob.png" alt="happy puppy"  class=" position-absolute" >
             </div>
@@ -338,40 +387,64 @@
         </h1>
         <div class="testimony-section container">
 
-            <div class="testimonys flex-wrap ">
-                <div id="testmony-area"  data-aos="zoom-in">
-                    <i class="bi bi-quote"></i>
-                    <p id="testimony">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Iste similique explicabo ducimus sint fuga laudantium assumenda! 
-                        Neque inventore modi assumenda facere necessitatibus 
-                        sed voluptatem incidunt beatae nihil, cum iure itaque!
-                    </p>
+            <div class="testimonys banner-carousel d-flex justify-content-center  align-items-center flex-column h-100 w-100 position-relative   ">
+
+                <div id="carouselExampleIndicators" class="carousel slide w-100 justify-content-center align-items-center d-flex position-relative" data-bs-ride="carousel">
+                    <div class="carousel-indicators " >
+                      <button id="button-testimony-indicators" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button id="button-testimony-indicators"  type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button id="button-testimony-indicators"  type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item item-testimony active">
+                            <div id="testmony-area"  data-aos="zoom-in">
+                            <i class="bi bi-quote"></i>
+                            <p id="testimony">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Iste similique explicabo ducimus sint fuga laudantium assumenda! 
+                                Neque inventore modi assumenda facere necessitatibus 
+                                sed voluptatem incidunt beatae nihil, cum iure itaque!
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item item-testimony">
+                        <div id="testmony-area"  data-aos="zoom-in">
+                            <i class="bi bi-quote"></i>
+                            <p id="testimony">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Iste similique explicabo ducimus sint fuga laudantium assumenda! 
+                                Neque inventore modi assumenda facere necessitatibus 
+                                sed voluptatem incidunt beatae nihil, cum iure itaque!
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="carousel-item item-testimony">
+                        <div id="testmony-area"  data-aos="zoom-in">
+                            <i class="bi bi-quote"></i>
+                            <p id="testimony">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Iste similique explicabo ducimus sint fuga laudantium assumenda! 
+                                Neque inventore modi assumenda facere necessitatibus 
+                                sed voluptatem incidunt beatae nihil, cum iure itaque!
+                            </p>
+                        </div>
+                    </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-                <div id="testmony-area" class="active"  data-aos="zoom-in">
-                    <i class="bi bi-quote"></i>
-                    <p id="testimony">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Iste similique explicabo ducimus sint fuga laudantium assumenda! 
-                        Neque inventore modi assumenda facere necessitatibus 
-                        sed voluptatem incidunt beatae nihil, cum iure itaque!
-                    </p>
-                </div>
-                <div id="testmony-area"   data-aos="zoom-in">
-                    <i class="bi bi-quote"></i>
-                    <p id="testimony">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Iste similique explicabo ducimus sint fuga laudantium assumenda! 
-                        Neque inventore modi assumenda facere necessitatibus 
-                        sed voluptatem incidunt beatae nihil, cum iure itaque!
-                    </p>
-                </div>
+              
             </div>
-           <div class="dots-testimony d-flex justify-content-center align-items-center gap-1 my-3">
-                <div id="dot"></div>
-                <div id="dot" class="dotActive"></div>
-                <div id="dot"></div>
-           </div>
+          
         </div>
     </section>
     <section id="contato" class="position-relative" style="overflow-x: 

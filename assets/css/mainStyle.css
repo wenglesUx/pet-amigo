@@ -5,6 +5,40 @@
     --blue-main:#62AEEE;
 
 }
+.banner-carousel{
+   
+}
+.forms-background{
+    height:100px;
+    width:100px;
+    background-color: #ff7a00;
+    position: absolute;
+    left: 0;
+    margin-left: 50px;
+}
+#second-form{
+    background-color: #d6e7ff;
+    margin-left: 70px;
+}
+.item-banner{
+    padding-top:8rem;
+   
+}
+.carousel-indicators{
+    
+    height: 30px;
+}
+#button-indicator{
+    margin-top: 30px;
+    height: 15px !important;
+    width: 15px;
+    background-color: #F57F13;
+    
+}
+.carousel-control-prev-icon,
+.carousel-control-prev-icon{
+   opacity:0 !important;
+}
 
 body{
     overflow-x: hidden !important;
@@ -366,8 +400,13 @@ section h1{
 }
 /* area de depoimentos
  */
+ .item-testimony{
+  
+align-self: center;
+justify-self: center;
+ }
  .testimony{
-    padding: 40px 0 80px 0 ;
+    padding: 40px 0 140px 0 ;
    
  }
  .bi-quote{
@@ -375,20 +414,40 @@ section h1{
     color:var(--orange-main)
  }
  .testimonys{
-    display: flex;
-    justify-content: space-evenly;
+ 
+   width: 100%;
+   height: 100%;
+  
  }
  #testmony-area{
     background-color: white;
-    height: 300px;
-    width: 300px;
+    height: 400px;
+    width: 400px;
     border-radius:15px;
 padding: 20px;
  }
- .active{
+ .testimonys .carousel-inner{
+    width: auto;
+ }
+ .testimonys .carousel-indicators{
+    margin-top: 100%;
+    z-index: 10;
+    
+   
+ }
+ #button-testimony-indicators{
+    height:15px;
+    width:15px;
+    border-radius: 50%;
+    background-color:#f56e40;
+ }
+ #carouselExampleIndicators{
+ }
+
+ /* .active{
     height: 350px !important;
   box-shadow: -1px 3px 10px  black;
- }
+ } */
 
  #dot{
    border:3px solid white;
@@ -470,6 +529,13 @@ margin-top: -250px;
 .footer_menu a:hover{
     border-bottom:1px solid var(--orange-main);
 }
+.footer_menu li{
+    text-align: left;
+}
+.footer_menu li::before,
+.footer_menu li::after {
+    display: none;
+}
 #coments-text{
     height:50px;
 }
@@ -531,6 +597,18 @@ body{
     #information_area h1{
         font-size: 3rem;
     }
+    #second-form {
+        background-color: #d6e7ff;
+        margin-left: 20px;
+    }
+    .forms-background {
+        height: 100px;
+        width: 100px;
+        background-color: #ff7a00;
+        position: absolute;
+        left: 0;
+        margin-left: 0;
+    }
     #main-image {
         z-index: 2;
         margin-top: 30px;
@@ -574,6 +652,7 @@ body{
     }
     #information_area {
     z-index:3;
+    width: 100vw !important;
     }
     main{
         flex-direction: column-reverse;
@@ -600,6 +679,9 @@ body{
         align-items: center;
         justify-content: center;
         flex-direction: column;
+    }
+    .service_content{
+        border-bottom:1px solid rgba(128, 195, 250, 0.6)
     }
     .main-image-section {
         height: 100%;
@@ -647,8 +729,15 @@ body{
         width: 90% !important;
         margin-right: 30px;
     }
+    .testimony {
+        height: 100vh;
+    }
     .testimonys{
         gap:2rem
+    }
+    #testmony-area {
+    
+        width: auto;
     }
 
     .contacts_section{
@@ -678,6 +767,7 @@ footer{
 .footer_menu{
     font-size: 1.2rem !important;
 }
+
 .social_media{
     font-size: calc(2.3rem + .6vw)!important;
 }
